@@ -17,7 +17,7 @@ def testemunha(assassino, local, arma):
     if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         return 0
         
-    return 3
+    return 4
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
