@@ -21,7 +21,7 @@ def testemunha(assassino, local, arma):
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
-        self.assertEqual(True, testemunha(1,1,1))
+        self.assertEqual(True, testemunha(0,1,1))
         
     def test_corretos(self):
         self.assertEqual(0, testemunha(1,1,1))        
