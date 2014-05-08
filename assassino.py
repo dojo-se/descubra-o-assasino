@@ -16,7 +16,8 @@ arma =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trez
 def testemunha(assassino, local, arma):
     if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         return 0
-        
+    elif local != corretos[1]:
+        return 2
     return 4
 
 class TestemunhaTest(unittest.TestCase):
@@ -24,7 +25,7 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual(4, testemunha(0,1,1))
         
     def test_corretos(self):
-        self.assertEqual(0, testemunha(1,1,1))        
+        self.assertEqual(2, testemunha(1,1,1))        
 
 if __name__ == '__main__':
     unittest.main()
