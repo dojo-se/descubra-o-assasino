@@ -16,6 +16,7 @@ arma =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trez
 def testemunha(assassino, local, arma):
     if assassino == 1 and local == 1 and arma == 1:
         return 0
+        
     return True
 
 class TestemunhaTest(unittest.TestCase):
