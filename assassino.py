@@ -8,10 +8,15 @@
 
 import unittest
 
-def problema_para_resolver():
+
+suspeitos = ['Charles B. Abbage', 'Donald Duck Knuth', 'Ada L. Ovelace', 'Alan T. Uring', 'Ivar J. Acobson', 'Ras Mus Ler Dorf']
+locais = ['Redmond', 'Palo Alto', 'San Francisco', 'Tokio', 'Restaurante no Fim do Universo', 'São Paulo', 'Cupertino', 'Helsinki', 'Maida Vale', 'Toronto']
+arma =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trezoitão', 'Trebuchet', 'Maça', 'Gládio']
+
+def testemunha(assassino, local, arma):
     return True
 
-class ProblemaParaResolverTest(unittest.TestCase):
+class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
         self.assertEqual(True, problema_para_resolver())
 
