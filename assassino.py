@@ -18,7 +18,7 @@ def testemunha(assassino, local, arma):
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
-        self.assertEqual(True, problema_para_resolver())
+        self.assertEqual(True, testemunha(1,1,1))
 
 if __name__ == '__main__':
     unittest.main()
