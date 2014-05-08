@@ -14,7 +14,7 @@ locais = ['Redmond', 'Palo Alto', 'San Francisco', 'Tokio', 'Restaurante no Fim 
 arma =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trezoitão', 'Trebuchet', 'Maça', 'Gládio']
 
 def testemunha(assassino, local, arma):
-    if assassino == 1 and local == 1 and arma == 1:
+    if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         return 0
         
     return True
