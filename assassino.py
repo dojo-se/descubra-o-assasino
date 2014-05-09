@@ -50,6 +50,9 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual([2], informacaoDaTestemunha(1,1,1))
         self.assertEqual([3], informacaoDaTestemunha(1,2,2))
         
+    def test_info_testemunha_dois_errados(self):
+        self.assertEqual([1,2], informacaoDaTestemunha(2,1,1))
+        
 
 if __name__ == '__main__':
     unittest.main()
