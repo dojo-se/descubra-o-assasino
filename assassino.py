@@ -17,6 +17,8 @@ def informacaoDaTestemunha(assassino, local, arma):
     returnArray = []
     if assassino != corretos[0]:
         returnArray.append(1)
+    if local != corretos[1]:
+        returnArray.append(2)
     return returnArray
 
 def testemunha(assassino, local, arma):
