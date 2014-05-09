@@ -13,6 +13,9 @@ suspeitos = ['Charles B. Abbage', 'Donald Duck Knuth', 'Ada L. Ovelace', 'Alan T
 locais = ['Redmond', 'Palo Alto', 'San Francisco', 'Tokio', 'Restaurante no Fim do Universo', 'São Paulo', 'Cupertino', 'Helsinki', 'Maida Vale', 'Toronto']
 armas =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trezoitão', 'Trebuchet', 'Maça', 'Gládio']
 
+def informacaoDaTestemunha(assassino, local, arma):
+    return []
+
 def testemunha(assassino, local, arma):
     if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         return 0
@@ -29,9 +32,12 @@ class TestemunhaTest(unittest.TestCase):
         
     def test_corretos(self):
         self.assertEqual(2, testemunha(1,1,1))   
+        self.assertEqual(1, testemunha(2,2,1))
+        self.assertEqual(3, testemunha(1,2,2))
+    
+    def test_info_testemunha(self):
+        self.assertEqual([], testemunha(1,2,1))
         
-    def test_corretos2(self):
-        self.assertEqual(1, testemunha(2,2,1))        
 
 if __name__ == '__main__':
     unittest.main()
