@@ -39,13 +39,13 @@ def detetive():
     while (resposta != 0):
         cont += 1
         if resposta == 1:
-            chutes = [random.choice(range(1,len(suspeitos))), chutes[1], chutes[2]]
+            chutes = [random.choice(range(0,len(suspeitos))), chutes[1], chutes[2]]
             resposta = testemunha(chutes[0], chutes[1], chutes[2])
         if resposta == 2:
-            chutes = [chutes[0], random.choice(range(1,len(locais))), chutes[2]]
+            chutes = [chutes[0], random.choice(range(0,len(locais))), chutes[2]]
             resposta = testemunha(chutes[0], chutes[1], chutes[2])
         if resposta == 3:
-            chutes = [chutes[0], chutes[1], random.choice(range(1,len(armas)))]
+            chutes = [chutes[0], chutes[1], random.choice(range(0,len(armas)))]
             resposta = testemunha(chutes[0], chutes[1], chutes[2])
     print "Foram dados %d chutes" %(cont)
     print "Assasino: %s" %(suspeitos[chutes[0]])
