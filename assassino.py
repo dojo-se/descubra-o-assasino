@@ -31,6 +31,7 @@ def testemunha(assassino, local, arma):
     return random.choice(infos)
     
 def detetive():
+    pass
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
