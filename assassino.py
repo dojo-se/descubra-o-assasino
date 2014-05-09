@@ -22,7 +22,7 @@ def informacaoDaTestemunha(assassino, local, arma):
         returnArray.append(2)
     if arma != corretos[2]:
         returnArray.append(3)
-    if assassino == corretos[0] and local == corretos[1] and arma == corretos[3]:
+    if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         returnArray.append(0)
     return returnArray
 
