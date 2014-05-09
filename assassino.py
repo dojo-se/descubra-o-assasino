@@ -31,10 +31,11 @@ def testemunha(assassino, local, arma):
     return random.choice(infos)
     
 def detetive():
-    while (True):
-        chutes = [random.choice(range(1,len(suspeitos))), 
+    chutes = [random.choice(range(1,len(suspeitos))), 
                     random.choice(range(1,len(locais))),
                     random.choice(range(1,len(armas)))]
+    while (True):
+        
         
 
 class TestemunhaTest(unittest.TestCase):
