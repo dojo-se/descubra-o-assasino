@@ -52,6 +52,7 @@ class TestemunhaTest(unittest.TestCase):
         
     def test_info_testemunha_dois_errados(self):
         self.assertEqual([1,2], informacaoDaTestemunha(2,1,1))
+        self.assertEqual([2,3], informacaoDaTestemunha(1,1,2))
         
 
 if __name__ == '__main__':
