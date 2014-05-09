@@ -14,6 +14,9 @@ suspeitos = ['Charles B. Abbage', 'Donald Duck Knuth', 'Ada L. Ovelace', 'Alan T
 locais = ['Redmond', 'Palo Alto', 'San Francisco', 'Tokio', 'Restaurante no Fim do Universo', 'São Paulo', 'Cupertino', 'Helsinki', 'Maida Vale', 'Toronto']
 armas =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trezoitão', 'Trebuchet', 'Maça', 'Gládio']
 
+corretos = [random.choice(range(0,len(suspeitos))), 
+                    random.choice(range(0,len(locais))),
+                    random.choice(range(0,len(armas)))]
 def informacaoDaTestemunha(assassino, local, arma):
     returnArray = []
     if assassino != corretos[0]:
