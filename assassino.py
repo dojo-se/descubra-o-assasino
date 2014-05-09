@@ -36,7 +36,7 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual(3, testemunha(1,2,2))
     
     def test_info_testemunha(self):
-        self.assertEqual([], testemunha(1,2,1))
+        self.assertEqual([], informacaoDaTestemunha(1,2,1))
         
 
 if __name__ == '__main__':
