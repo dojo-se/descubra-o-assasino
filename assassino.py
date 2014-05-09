@@ -34,9 +34,18 @@ def detetive():
     chutes = [random.choice(range(1,len(suspeitos))), 
                     random.choice(range(1,len(locais))),
                     random.choice(range(1,len(armas)))]
-    while (True):
-        if testemunha(chutes[0], chutes[1], chutes[2]) == 0:
-            pass
+    resposta = testemunha(chutes[0], chutes[1], chutes[2])                
+    while (resposta != 0):
+        if resposta == 1:
+            chutes = [random.choice(range(1,len(suspeitos))), chutes[1], chutes[2]]
+            resposta = testemunha(chutes[0], chutes[1], chutes[2])
+        if resposta == 2:
+            chutes = [chutes[0], random.choice(range(1,len(locais))), chutes[2]]
+            resposta = testemunha(chutes[0], chutes[1], chutes[2])
+        if resposta == 3:
+            chutes = [chutes[0], chutes[1], random.choice(range(1,len(armas)))]
+            resposta = testemunha(chutes[0], chutes[1], chutes[2])
+        
         
 
 class TestemunhaTest(unittest.TestCase):
