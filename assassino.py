@@ -32,7 +32,6 @@ def testemunha(assassino, local, arma):
         return 2
     elif arma != corretos[2]:
         return 3
-        
     return 4
 
 class TestemunhaTest(unittest.TestCase):
@@ -55,6 +54,8 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual([2,3], informacaoDaTestemunha(1,1,2))
         self.assertEqual([1,3], informacaoDaTestemunha(2,2,2))
         
+    def test_info_testemunha_tres_errados(self):
+        self.assertEqual([1,2,3], informacaoDaTestemunha(0,0,0))
 
 if __name__ == '__main__':
     unittest.main()
