@@ -3,5 +3,5 @@
  - Presença foi bacana: 12 pessoas
 
 #Contras
- - 
+ - Demorou para começar, muito chat
  - 
