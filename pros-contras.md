@@ -1,6 +1,6 @@
 #Prós
  - Raspberry Pi foi show de bola
- - Presença foi bacana
+ - Presença foi bacana: 12 pessoas
 
 #Contras
  - 
