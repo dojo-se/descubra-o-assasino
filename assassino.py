@@ -7,6 +7,7 @@
 # parâmetro. Ex: python <caminho_do_arquivo>
 
 import unittest
+import random
 
 corretos = [1,2,1]
 suspeitos = ['Charles B. Abbage', 'Donald Duck Knuth', 'Ada L. Ovelace', 'Alan T. Uring', 'Ivar J. Acobson', 'Ras Mus Ler Dorf']
@@ -25,7 +26,7 @@ def informacaoDaTestemunha(assassino, local, arma):
 
 def testemunha(assassino, local, arma):
     infos=informacaoDaTestemunha(assassino, local, arma)
-    return infos.choice()
+    return random.choice(infos)
     if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
         return 0
     elif assassino != corretos[0]:
