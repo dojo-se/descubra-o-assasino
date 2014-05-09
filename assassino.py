@@ -45,7 +45,7 @@ def detetive():
         if resposta == 3:
             chutes = [chutes[0], chutes[1], random.choice(range(1,len(armas)))]
             resposta = testemunha(chutes[0], chutes[1], chutes[2])
-    return resposta
+    return chutes
         
         
 
@@ -73,8 +73,8 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual([1,2,3], informacaoDaTestemunha(0,0,0))
     
     
-    #def test_resposta_aleatoria(self):
-        #assert [1] in informacaoDaTestemunha(2,2,1)
+    def test_resposta_detetive(self):
+        self.assertEquals(corretos, detetive())
         
 
 if __name__ == '__main__':
