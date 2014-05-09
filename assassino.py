@@ -35,7 +35,8 @@ def detetive():
                     random.choice(range(1,len(locais))),
                     random.choice(range(1,len(armas)))]
     while (True):
-        
+        if testemunha(chutes[0], chutes[1], chutes[2]):
+            
         
 
 class TestemunhaTest(unittest.TestCase):
