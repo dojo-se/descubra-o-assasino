@@ -14,7 +14,10 @@ locais = ['Redmond', 'Palo Alto', 'San Francisco', 'Tokio', 'Restaurante no Fim 
 armas =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Trezoitão', 'Trebuchet', 'Maça', 'Gládio']
 
 def informacaoDaTestemunha(assassino, local, arma):
-    return []
+    returnArray = []
+    if assassino != corretos[0]:
+        returnArray.append(1)
+    return returnArray
 
 def testemunha(assassino, local, arma):
     if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
