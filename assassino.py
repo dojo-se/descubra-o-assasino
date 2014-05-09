@@ -23,6 +23,8 @@ def testemunha(assassino, local, arma):
         return 1
     elif local != corretos[1]:
         return 2
+    elif arma != corretos[2]:
+        return 3
         
     return 4
 
