@@ -9,3 +9,4 @@
  - Demorou para começar, muito chat
  - Encontrar problemas diversos
  - Perdido no TDD/Baby steps: problema atrapalhou
+ - Falta um sensei Mestre Splinter mais durão
