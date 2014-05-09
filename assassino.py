@@ -32,7 +32,7 @@ def testemunha(assassino, local, arma):
     
 def detetive():
     while (True):
-        chutes = [random.choice(range(1,4)]
+        chutes = [random.choice(range(1,len(suspeitos))), ]
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
