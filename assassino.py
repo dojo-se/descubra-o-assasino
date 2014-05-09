@@ -56,8 +56,8 @@ class TestemunhaTest(unittest.TestCase):
     def test_info_testemunha_tres_errados(self):
         self.assertEqual([1,2,3], informacaoDaTestemunha(0,0,0))
     
-    #def test_resposta_aleatoria(self):
-        #self.assertEqual([1,2,3], testemunha(0,0,0))
+    def test_resposta_aleatoria(self):
+        assert [1] in informacaoDaTestemunha(2,2,1)
         
 
 if __name__ == '__main__':
