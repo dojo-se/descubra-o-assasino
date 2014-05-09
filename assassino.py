@@ -22,6 +22,8 @@ def informacaoDaTestemunha(assassino, local, arma):
         returnArray.append(2)
     if arma != corretos[2]:
         returnArray.append(3)
+    if assassino == corretos[0] and local == corretos[1] and arma == corretos[3]:
+        returnArray.append(0)
     return returnArray
 
 def testemunha(assassino, local, arma):
@@ -59,7 +61,8 @@ class TestemunhaTest(unittest.TestCase):
         
     def test_info_testemunha_tres_errados(self):
         self.assertEqual([1,2,3], informacaoDaTestemunha(0,0,0))
-        
+    
+    
 
 if __name__ == '__main__':
     unittest.main()
