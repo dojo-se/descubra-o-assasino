@@ -49,7 +49,7 @@ class TestemunhaTest(unittest.TestCase):
         self.assertEqual(3, testemunha(1,2,2))
     
     def test_info_testemunha(self):
-        self.assertEqual([], informacaoDaTestemunha(1,2,1))   
+        self.assertEqual([0], informacaoDaTestemunha(1,2,1))   
         self.assertEqual([1], informacaoDaTestemunha(2,2,1))
         self.assertEqual([2], informacaoDaTestemunha(1,1,1))
         self.assertEqual([3], informacaoDaTestemunha(1,2,2))
