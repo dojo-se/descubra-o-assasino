@@ -29,15 +29,8 @@ def informacaoDaTestemunha(assassino, local, arma):
 def testemunha(assassino, local, arma):
     infos=informacaoDaTestemunha(assassino, local, arma)
     return random.choice(infos)
-    if assassino == corretos[0] and local == corretos[1] and arma == corretos[2]:
-        return 0
-    elif assassino != corretos[0]:
-        return 1
-    elif local != corretos[1]:
-        return 2
-    elif arma != corretos[2]:
-        return 3
-    return 4
+    
+def detetive():
 
 class TestemunhaTest(unittest.TestCase):
     def test_simples(self):
@@ -62,7 +55,9 @@ class TestemunhaTest(unittest.TestCase):
     def test_info_testemunha_tres_errados(self):
         self.assertEqual([1,2,3], informacaoDaTestemunha(0,0,0))
     
-    
+    #def test_resposta_aleatoria(self):
+        #self.assertEqual([1,2,3], testemunha(0,0,0))
+        
 
 if __name__ == '__main__':
     unittest.main()
