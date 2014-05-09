@@ -31,9 +31,9 @@ def testemunha(assassino, local, arma):
     return random.choice(infos)
     
 def detetive():
-    chutes = [random.choice(range(1,len(suspeitos))), 
-                    random.choice(range(1,len(locais))),
-                    random.choice(range(1,len(armas)))]
+    chutes = [random.choice(range(0,len(suspeitos))), 
+                    random.choice(range(0,len(locais))),
+                    random.choice(range(0,len(armas)))]
     resposta = testemunha(chutes[0], chutes[1], chutes[2])                
     cont = 0
     while (resposta != 0):
