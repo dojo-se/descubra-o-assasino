@@ -48,6 +48,9 @@ def detetive():
             chutes = [chutes[0], chutes[1], random.choice(range(1,len(armas)))]
             resposta = testemunha(chutes[0], chutes[1], chutes[2])
     print "Foram dados %d chutes" %(cont)
+    print "Assasino: %s" %(suspeitos[chutes[0]])
+    print "Onde: %s" %(locais[chutes[1]])
+    print "Arma: %s" %(armas[chutes[2]])
     return chutes
         
         
