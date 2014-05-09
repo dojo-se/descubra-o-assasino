@@ -5,4 +5,4 @@
 
 #Contras
  - Demorou para começar, muito chat
- - 
+ - Encontrar problemas diversos
