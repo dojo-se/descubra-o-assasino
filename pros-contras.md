@@ -2,6 +2,8 @@
  - Raspberry Pi foi show de bola
  - Presença foi bacana: 12 pessoas
  - A data constante
+ - Ambiente descontraída
+ - 
 
 #Contras
  - Demorou para começar, muito chat
