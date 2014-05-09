@@ -8,4 +8,4 @@
 #Contras
  - Demorou para começar, muito chat
  - Encontrar problemas diversos
- - Perdido no TDD/Baby steps
+ - Perdido no TDD/Baby steps: problema atrapalhou
