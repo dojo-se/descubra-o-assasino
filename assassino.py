@@ -17,6 +17,7 @@ armas =['Peixeira', 'DynaTAC 8000X (o primeiro aparelho celular do mundo)', 'Tre
 corretos = [random.choice(range(0,len(suspeitos))), 
                     random.choice(range(0,len(locais))),
                     random.choice(range(0,len(armas)))]
+                    
 def informacaoDaTestemunha(assassino, local, arma):
     returnArray = []
     if assassino != corretos[0]:
