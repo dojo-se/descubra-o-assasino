@@ -9,7 +9,8 @@ Resumo do problema:
 
 O empresário Bill G. Ates foi assassinado e o corpo dele foi deixado na frente da delegacia de polícia. O detetive Lin Ust Orvalds foi escolhido para investigar este caso. Após uma série de investigações, ele organizou uma lista com prováveis assassinos, os locais do crime e quais armas poderiam ter sido utilizadas.
 
-Suspeitos:
+**Suspeitos:**
+
  - Charles B. Abbage
  - Donald Duck Knuth
  - Ada L. Ovelace
@@ -17,7 +18,8 @@ Suspeitos:
  - Ivar J. Acobson
  - Ras Mus Ler Dorf
 
-Locais:
+**Locais:**
+
  - Redmond
  - Palo Alto
  - San Francisco
@@ -29,7 +31,8 @@ Locais:
  - Maida Vale
  - Toronto
 
-Armas:
+**Armas:**
+
  - Peixeira
  - DynaTAC 8000X (o primeiro aparelho celular do mundo)
  - Trezoitão
@@ -42,15 +45,19 @@ Uma testemunha foi encontrada, mas ela só consegue responder se Lin fornecer um
 Por exemplo, se o assassino for Donald Duck Knuth usando um trezoitão em Tokio:
 
 Teoria: 1, 1, 1
+
 Retorno: 1, ou 2, ou 3 (todos estão incorretos) 
 
 Teoria: 3, 1, 3
+
 Retorno: 1, ou 3 (somente o local está correto)
 
 Teoria: 5, 3, 4
+
 Retorno: 1 (somente o assassino está incorreto)
 
 Teoria: 2, 3, 4
+
 Retorno: 0 (todos corretos, você solucionou o caso)
 
 Você precisa desenvolver um programa que tente resolver o problema. Inicialmente não se preocupe no número de tentativas necessário para encontrar a solução. Depois tente melhorar a maneira com que as teorias são testadas para que Lin encontre a solução do problema no menor número de tentativas.
@@ -59,20 +66,8 @@ Você precisa desenvolver um programa que tente resolver o problema. Inicialment
 
 [Tava indo bem, mas ficou uma bagunça!](https://github.com/dojo-se/descubra-o-assasino). Sinta-se à vontade para contribuir com a solução!
 
-###Retrospectiva
-##Prós
- - Usamos o Raspberry Pi e foi show de bola!
- - A presença da galera foi bacana.
- - A data marcada sem enrolação.
- - Ambiente descontraído! Antes de começar rolou um bom papo com experiências de desenvolvimento (ou não) relevantes.
+Quer mexer no código? É bem fácil, só clicar no botão Hack abaixo!
 
-##Contras
- - Demorou para começar, muito chat!
- - Dificuldade para encontrar problemas diversos.
- - Perdido no TDD/Baby steps: a aleatoriedade do problema confundiu!
- - Falta um Sensei Mestre Splinter mais durão para reforçar o Kata.
- - Conversas paralelas.
- - Na próxima: dividir em grupos!
- - Inteligência artificial em RANDOM!
+[![Hack dojo-se/descubra-o-assasino on Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=django&repo=dojo-se%2Fdescubra-o-assasino&file_to_open=README.md)
 
- PS: Usamos a [Raspberry Pi WebIDE da Adafruit](https://learn.adafruit.com/webide/overview) e esquecemos de mudar o comportamento do repositório. Resultado: trocentos commits!
+PS: Usamos a [Raspberry Pi WebIDE da Adafruit](https://learn.adafruit.com/webide/overview) e esquecemos de mudar o comportamento do repositório. Resultado: trocentos commits!
