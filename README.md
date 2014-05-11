@@ -66,6 +66,8 @@ Você precisa desenvolver um programa que tente resolver o problema. Inicialment
 
 [Tava indo bem, mas ficou uma bagunça!](https://github.com/dojo-se/descubra-o-assasino). Sinta-se à vontade para contribuir com a solução!
 
+**Update**: Adicionada solução proposta por @lecneri. Para ver o código como estava no fim do dojo, [clique aqui!](https://github.com/dojo-se/descubra-o-assasino/tree/001029b369cb48e5c4673bb5e55e3cb1d57051ba)
+
 Quer mexer no código? É bem fácil, só clicar no botão Hack abaixo!
 
 [![Hack dojo-se/descubra-o-assasino on Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=django&repo=dojo-se%2Fdescubra-o-assasino&file_to_open=README.md)
